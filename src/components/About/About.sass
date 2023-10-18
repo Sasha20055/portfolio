@@ -1,6 +1,57 @@
 
 .about__img
+  margin: 20px auto
   img
     border: 3px solid #10162F
-    border-radius: 150px
-    width: 300px
+    border-radius: 250px
+    max-width: 350px
+    box-shadow: 0px 0px 18px 4px rgba(34, 60, 80, 0.39)
+.about-skills__row
+  max-width: 500px
+.about
+  padding: 20px 0
+  margin: auto 0
+  overflow: auto
+  &::-webkit-scrollbar
+    border-radius: 10px
+    width: 7px
+  &::-webkit-scrollbar-thumb
+    border-radius: 10px
+    background-color: #10162F
+  h3
+    font-weight: 600
+    font-size: 18px
+    color: #000000
+  p
+    max-height: 300px
+    overflow: auto
+    padding-right: 10px
+    &::-webkit-scrollbar
+      border-radius: 10px
+      width: 7px
+    &::-webkit-scrollbar-thumb
+      border-radius: 10px
+      background-color: #10162F
+.about-skills__items
+  list-style-type: none
+.about-skills__item
+  animation: 2s ease infinite pulse
+  transition-duration: 1s
+  img
+    width: 50px
+  &:hover
+    animation: none
+    transform: scale(0.9)
+
+@keyframes pulse
+  0%
+    transform: scale(1)
+  25%
+    transform: scale(1.035)
+  50%
+    transform: scale(1)
+
+@media screen and (max-width : 450px )
+  .about__img
+    img
+      width: 250px

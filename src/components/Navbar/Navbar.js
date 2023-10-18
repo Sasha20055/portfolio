@@ -12,9 +12,9 @@ const Navigation = (props) => {
         <Container>
           <Navbar.Brand href="/#about" className="navBrand"></Navbar.Brand>
           <Nav className="m-auto">
-            <Nav.Link href="/#about">About</Nav.Link>
-            <Nav.Link href="/#contacts">Contacts</Nav.Link>
-            <Nav.Link href="/#projects">Projects</Nav.Link>
+            <Nav.Link href="/#about">О себе</Nav.Link>
+            <Nav.Link href="/#contacts">Контакты</Nav.Link>
+            <Nav.Link href="/#projects">Проекты</Nav.Link>
           </Nav>
         </Container>
       </Navbar>

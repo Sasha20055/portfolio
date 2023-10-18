@@ -14,17 +14,15 @@ const App = (props) => {
     <HashRouter>
       <div className='wrapper'>
         <Navigation />
-        <div className='content'>
-          <React.Suspense fallback={<div>Load...</div>}>
-            <Routes>
-              <Route path="/" element={<Navigate to={`/about`} />} />
-              <Route path='/projects' element={<Projects />} />
-              <Route path='/contacts' element={<ContactsL />} />
-              <Route path='/about' element={<AboutL />} />
-              <Route path='*' element={<div>404 NOT FOUND</div>} />
-            </Routes>
-          </React.Suspense>
-        </div>
+        <React.Suspense fallback={<div>Load...</div>}>
+          <Routes>
+            <Route path="/" element={<Navigate to={`/about`} />} />
+            <Route path='/projects' element={<Projects />} />
+            <Route path='/contacts' element={<ContactsL />} />
+            <Route path='/about' element={<AboutL />} />
+            <Route path='*' element={<div>404 NOT FOUND</div>} />
+          </Routes>
+        </React.Suspense>
       </div>
     </HashRouter>
   )
