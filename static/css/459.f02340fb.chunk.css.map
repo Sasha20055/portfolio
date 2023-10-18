@@ -1,1 +1,0 @@
-{"version":3,"file":"static/css/459.f02340fb.chunk.css","mappings":"AAEE,gBACE,yBACA,oBACA","sources":["components/About/About.sass"],"sourcesContent":["\r\n.about__img\r\n  img\r\n    border: 3px solid #10162F\r\n    border-radius: 150px\r\n    width: 300px\r\n"],"names":[],"sourceRoot":""}
