@@ -1,5 +1,4 @@
 import React from "react";
-import NavLink from "react-router-dom"
 import "./About.sass"
 import myPhoto from "../../assets/images/photo.jpg";
 import css from "../../assets/images/css.svg"
@@ -19,7 +18,7 @@ const About = (props) => {
       <div className="container about__container">
         <div className="row about__row">
           <div className="col-md-6 ">
-            <h3>- О себе</h3>
+            <h1>О себе</h1>
             <h2>Николенко Александр</h2>
             <p>Фронтенд разработчик. Активно занимаюсь веб-разработкой уже 2 года.
               Мне 18 лет, учусь на первом курсе Краснодарского Государственного Технологического Университета. Сам проживаю в Краснодаре.
