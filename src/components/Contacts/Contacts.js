@@ -1,11 +1,20 @@
 import React from "react";
-import "./Contacts.sass" 
+import ContactForm from "../common/ContactForm";
+import "./Contacts.sass"
 
 const Contacts = (props) => {
   return (
-    <div className="contacts">
-      Contacts
-    </div>
+    <section className="contacts">
+      <div className="container">
+        <div className="row">
+          <div className="col-12 flex-center flex-column">
+            <h1>Связаться со мной</h1>
+            <ContactForm />
+            <a href="https://github.com/" className="github"></a>
+          </div>
+        </div>
+      </div>
+    </section>
   )
 }
 

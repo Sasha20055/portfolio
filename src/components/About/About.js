@@ -12,6 +12,7 @@ import git from "../../assets/images/git.svg"
 import react from "../../assets/images/react.svg"
 import redux from "../../assets/images/redux.svg"
 import gitHub from "../../assets/images/gitHub.svg"
+import monkeytype from "../../assets/images/monkeytype.svg"
 
 const About = (props) => {
   return (
@@ -46,6 +47,9 @@ const About = (props) => {
             </li>
             <li className="about-skills__item about-item-bootstrap">
               <a href="https://getbootstrap.com" title="bootstrap"><img src={bootstrap} alt="bootstrap" /></a>
+            </li>
+            <li className="about-skills__item about-item-monkeytype">
+              <a href="https://monkeytype.com/profile/Sasha2005" title="monkeytype"><img src={monkeytype} alt="mmonkeytype" /></a>
             </li>
             <li className="about-skills__item about-item-sass">
               <a href="https://sass-scss.ru" title="sass"><img src={sass} alt="sass" /></a>
